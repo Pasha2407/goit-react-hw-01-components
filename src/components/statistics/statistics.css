@@ -1,0 +1,68 @@
+.statistics {
+    display: flex;
+    width: 360px;
+    margin: 0 auto;
+    background-color: white;
+    box-sizing: border-box;
+    flex-direction: column;
+    box-shadow: 15px 15px 2px 1px rgba(89, 89, 90, 0.2);
+    margin-top: 60px;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+  }
+  .stat-list {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .docx {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 72px;
+    box-sizing: border-box;
+    background-color: rgb(98, 89, 217);
+  }
+  .pdf {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 72px;
+    box-sizing: border-box;
+    background-color: rgb(224, 78, 78);
+  }
+  .mp3 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 72px;
+    box-sizing: border-box;
+    background-color: rgb(95, 220, 187);
+  }
+  .psd {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 72px;
+    box-sizing: border-box;
+    background-color: rgb(89, 194, 217);
+  }
+  .mp4 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 72px;
+    box-sizing: border-box;
+    background-color: rgb(88, 55, 154);
+  }
+  
+
+

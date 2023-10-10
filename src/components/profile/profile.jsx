@@ -10,7 +10,6 @@ const Profile = ({ username, tag, location, stats, avatar }) => {
         <p className="tag"><a href='https://www.instagram.com/pasha_khim/' target='_blank' rel='noreferrer' >{tag}</a></p>
         <p className="location">{location}</p>
       </div>
-
       <div className="stats">
         <div className='stats-item'>
           <span className="label">Followers</span>

@@ -1,9 +1,14 @@
-const Statistics = () => {
+import './statistics.css'
+
+const Statistics = ({stats,title}) => {
     return (
-      <div>
-        Statistics
-      </div>
+      <section className="statistics">
+        {title && <h2 className="title">{title}</h2>}
+    <ul className='stat-list'>
+     {stats}
+    </ul>
+</section>
     );
   };
-  
+
   export default Statistics;
