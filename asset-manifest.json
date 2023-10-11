@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Pasha2407/goit-react-hw-01-components/static/css/main.13ca2515.css",
+    "main.js": "/Pasha2407/goit-react-hw-01-components/static/js/main.f4b1781d.js",
+    "index.html": "/Pasha2407/goit-react-hw-01-components/index.html",
+    "main.13ca2515.css.map": "/Pasha2407/goit-react-hw-01-components/static/css/main.13ca2515.css.map",
+    "main.f4b1781d.js.map": "/Pasha2407/goit-react-hw-01-components/static/js/main.f4b1781d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13ca2515.css",
+    "static/js/main.f4b1781d.js"
+  ]
+}
