@@ -1,6 +1,6 @@
 .profile {
   display: flex;
-  width: 360px;
+  width: 330px;
   margin: 0 auto;
   background-color: white;
   box-sizing: border-box;
@@ -14,14 +14,14 @@
   flex-direction: column;
 }
 .avatar {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   display: inline-block;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .avatar > img {
   width: 150%;
@@ -37,14 +37,12 @@
     font-size: 15px;
     margin-top: 0;
     margin-bottom: 10px;
-}
-.tag > a {
     color: rgb(163, 169, 176);
 }
 .location {
     font-size: 20px;
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: rgb(163, 169, 176);
 }
 .stats {
@@ -54,13 +52,13 @@
   box-sizing: border-box;
   justify-content: space-between;
 }
-.stats-item {
+.stats_item {
   display: flex;
   flex-direction: column;
-  width: 115px;
+  width: 105px;
   align-items: center;
   box-sizing: border-box;
-  padding: 30px;
+  padding: 25px;
   background-color: rgb(221, 224, 242);
 }
 .label {

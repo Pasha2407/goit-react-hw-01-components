@@ -6,17 +6,12 @@ import Statistics from './statistics/statistics'
 import TransactionHistory from './transaction-history/transaction-history'
 import user from './data/user.json'
 import data from './data/data.json'
-
-const Data = data.map(item => 
-  <li className={item.color}>
-      <span className="label">{item.label}</span>
-      <span className="percentage">{item.percentage}%</span>
-    </li>
-);
+import friends from './data/friends.json'
 
 export const App = () => {
   return (
-    <div>
+    <div className="main">
+      <div className="components">
       <Profile 
       username = {user.username}
       tag = {user.tag}
@@ -26,10 +21,15 @@ export const App = () => {
       /> 
       <Statistics
       title = "UPLOAD STATS"
-      stats = {Data}
+      stats = {data}
       />
-      <FriendList/>
+      </div>
+      <div className="components">
+      <FriendList
+      friends = {friends}
+      />
       <TransactionHistory/>
+      </div>
     </div>
   );
 };

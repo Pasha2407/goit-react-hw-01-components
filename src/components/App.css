@@ -1,5 +1,12 @@
 body {
     background-color: rgb(195, 200, 231);
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.components {
     display: flex;
     flex-direction: column;
 }

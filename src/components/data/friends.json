@@ -1,0 +1,32 @@
+[
+  {
+    "avatar": "https://www.occrp.org/assets/panamapapers/persons/messi.png",
+    "name": "Lionel Messi",
+    "isOnline": true,
+    "id": 1812
+  },
+  {
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Tobey_Maguire_2014.jpg",
+    "name": "Toby Maguire",
+    "isOnline": false,
+    "id": 1137
+  },
+  {
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg/1200px-Elon_Musk_Royal_Society_%28crop2%29.jpg",
+    "name": "Elon Musk",
+    "isOnline": true,
+    "id": 1213
+  },
+  {
+    "avatar": "https://hips.hearstapps.com/hmg-prod/images/chris-evans-gettyimages-1138769185.jpg",
+    "name": "Cris Evans",
+    "isOnline": true,
+    "id": 1714
+  },
+  {
+    "avatar": "https://hips.hearstapps.com/harpersbazaaruk.cdnds.net/16/23/1465569225-landscape-1464890119-hbz-got-khaleesi.jpg?crop=0.500xw:1.00xh;0.465xw,0&resize=2048:*",
+    "name": "Emilia Clarke",
+    "isOnline": false,
+    "id": 1284
+  }
+]
