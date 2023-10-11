@@ -7,11 +7,12 @@ import TransactionHistory from './transaction-history/transaction-history'
 import user from './data/user.json'
 import data from './data/data.json'
 import friends from './data/friends.json'
+import transaction from './data/transactions.json'
 
 export const App = () => {
   return (
     <div className="main">
-      <div className="components">
+      <div className="component">
       <Profile 
       username = {user.username}
       tag = {user.tag}
@@ -24,11 +25,15 @@ export const App = () => {
       stats = {data}
       />
       </div>
-      <div className="components">
+      <div className="component">
       <FriendList
       friends = {friends}
       />
-      <TransactionHistory/>
+      </div>
+      <div className="component">
+      <TransactionHistory
+      item = {transaction}
+      />
       </div>
     </div>
   );

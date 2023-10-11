@@ -6,7 +6,7 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
 }
-.components {
+.component {
     display: flex;
     flex-direction: column;
 }
