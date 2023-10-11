@@ -13,27 +13,27 @@ export const App = () => {
   return (
     <div className="main">
       <div className="component">
-      <Profile 
-      username = {user.username}
-      tag = {user.tag}
-      location = {user.location}
-      stats = {user.stats}
-      avatar = {user.avatar}
-      /> 
-      <Statistics
-      title = "UPLOAD STATS"
-      stats = {data}
-      />
+        <Profile 
+          username = {user.username}
+          tag = {user.tag}
+          location = {user.location}
+          stats = {user.stats}
+          avatar = {user.avatar}
+        /> 
+        <Statistics
+          title = "UPLOAD STATS"
+          stats = {data}
+        />
       </div>
       <div className="component">
-      <FriendList
-      friends = {friends}
-      />
+        <FriendList
+          friends = {friends}
+        />
       </div>
       <div className="component">
-      <TransactionHistory
-      item = {transaction}
-      />
+        <TransactionHistory
+          item = {transaction}
+        />
       </div>
     </div>
   );

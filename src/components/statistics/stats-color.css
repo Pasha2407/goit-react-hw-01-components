@@ -1,40 +1,45 @@
-.docx {
+  .docx {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
     width: 66px;
     box-sizing: border-box;
     background-color: rgb(98, 89, 217);
+    text-align: center;
   }
   .pdf {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
     width: 66px;
     box-sizing: border-box;
     background-color: rgb(224, 78, 78);
+    text-align: center;
   }
   .mp3 {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
     width: 66px;
     box-sizing: border-box;
     background-color: rgb(95, 220, 187);
+    text-align: center;
   }
   .psd {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
     width: 66px;
     box-sizing: border-box;
     background-color: rgb(89, 194, 217);
+    text-align: center;
   }
   .mp4 {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 15px;
     width: 66px;
     box-sizing: border-box;
     background-color: rgb(88, 55, 154);
+    text-align: center;
   }
